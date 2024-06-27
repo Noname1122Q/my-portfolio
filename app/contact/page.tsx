@@ -75,16 +75,13 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
-<<<<<<< HEAD
             <form
               onSubmit={sendEmail}
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
               <h3 className="text-4xl text-blue-600">Let's work together</h3>
-=======
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-blue-600">Let&#39;s work together</h3>
->>>>>>> 52513be81bf31c7e8d73ea72ea3dca2261c17125
               <p className="text-white/60">
                 Hope to have a good time building.
               </p>
