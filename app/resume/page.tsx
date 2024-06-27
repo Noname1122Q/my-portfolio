@@ -80,7 +80,7 @@ const skills = {
     },
     {
       icon: <FaPython />,
-      name: "python",
+      name: "Python",
     },
     {
       icon: <FaJs />,
