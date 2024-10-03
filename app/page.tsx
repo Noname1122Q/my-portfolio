@@ -1,7 +1,5 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
-import { Button } from "@/components/ui/button";
-import { DownloadCloud } from "lucide-react";
 
 export default function Home() {
   return (
@@ -17,16 +15,9 @@ export default function Home() {
             </h1>
             <p>
               I enjoy the process of building projects and I am proficient in
-              various programming languages and technologies
+              various programming languages and technologies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant={"customOutline"}
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <DownloadCloud className="h-4 w-4" />
-              </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"

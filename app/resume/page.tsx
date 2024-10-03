@@ -9,19 +9,14 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { motion } from "framer-motion";
-import React from "react";
+import { FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
 import {
-  FaCss3,
-  FaHtml5,
-  FaJs,
-  FaNodeJs,
-  FaPython,
-  FaReact,
-} from "react-icons/fa";
-import {
+  SiClerk,
+  SiDrizzle,
+  SiHono,
   SiMongodb,
   SiNextdotjs,
-  SiPrisma,
+  SiPostgresql,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -33,7 +28,6 @@ const about = {
     { fieldName: "Name", fieldValue: "Uttam Jangir" },
     { fieldName: "Phone", fieldValue: "+91 9257733088" },
     { fieldName: "Email", fieldValue: "uttamjangir14@gmail.com" },
-    { fieldName: "Nationality", fieldValue: "Indian" },
     { fieldName: "Languages", fieldValue: "Hindi, English" },
   ],
 };
@@ -71,14 +65,6 @@ const skills = {
     "Here are the some skills and technologies that I have worked with.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "css 3",
-    },
-    {
       icon: <FaPython />,
       name: "Python",
     },
@@ -111,8 +97,20 @@ const skills = {
       name: "MongoDB",
     },
     {
-      icon: <SiPrisma />,
-      name: "Prisma",
+      icon: <SiPostgresql />,
+      name: "PostgresSQL",
+    },
+    {
+      icon: <SiDrizzle />,
+      name: "Drizzle",
+    },
+    {
+      icon: <SiClerk />,
+      name: "Clerk",
+    },
+    {
+      icon: <SiHono />,
+      name: "Hono",
     },
   ],
 };
@@ -179,7 +177,7 @@ const Resume = () => {
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                            <div className="text-6xl group-hover:text-blue-600 transition-all duration-300">
+                            <div className="text-3xl group-hover:text-blue-600 transition-all duration-300">
                               {skill.icon}
                             </div>
                           </TooltipTrigger>
