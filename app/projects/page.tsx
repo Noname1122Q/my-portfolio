@@ -26,7 +26,7 @@ const projects = [
     underDevelopment: false,
   },
   {
-    title: "Seamless UI (Under Development)",
+    title: "Seamless UI",
     description:
       "A component library made by me to be able to quickly utilize prebuilt components.",
     link: "#",
@@ -34,7 +34,7 @@ const projects = [
     underDevelopment: true,
   },
   {
-    title: "Restaurant website (Under Development)",
+    title: "Restaurant website",
     description: "A full stack restaurant model website.",
     link: "#",
     stack: "MERN, Zod, Typescript, Tailwind",
